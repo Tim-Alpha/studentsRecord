@@ -33,7 +33,7 @@ class StudentController extends Controller
                 }
                 $batch->add(new StudenRegistrationProcess($data, $header));
             }
-            return $batch;
+            return $data;
         }
         return 'please upload file';
     }
