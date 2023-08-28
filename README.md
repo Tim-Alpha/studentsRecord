@@ -2,7 +2,7 @@
 
     This is a simple student registration project. 
     Here you have to upload a .csv or .xsls file containing student data.
-    As you you upload your .csv file server provide an student information api, 
+    As you you upload your .csv file server provide students information api, 
     server also save all the data to the mysql database in background and 
     uploading is not fail even user refresh or leave the page, 
     rest while server also satrt sending email to those student whose data is successfully add to the database.
@@ -40,4 +40,4 @@
 ## Email sending
 
 Email sending is a background process and don't effect the API and UI interface.
-Don't create any API for email please make sure that email addres provide in .csv file is a valid email address.
+Don't create any API for emails, please make sure that email addres provide in .csv file is a valid email address.
